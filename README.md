@@ -3,12 +3,9 @@
 > :construction: Projeto em construção :construction:
 
 **a)** Implement your own version of the hello world program in machine code.
-Arquivo: hw.hex
-
-De .hex para .bin: xxd -r -p hw.hex hw.bin	# Criou o arquivo: hw.bin
-
-Executar: make hw.bin/run			# ou com: qemu-system-i386 -drive format=raw,file=hw.bin -net none
-
+Arquivo: hw.hex <br/>
+De .hex para .bin: xxd -r -p hw.hex hw.bin	# Criou o arquivo: hw.bin <br/>
+Executar: make hw.bin/run			# ou com: qemu-system-i386 -drive format=raw,file=hw.bin -net none <br/>
 Resultado tem que ser: *Hello World!*
 
 **b)** Implement your own version of the hello world program in AT&T assembly.

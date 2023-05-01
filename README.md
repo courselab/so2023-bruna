@@ -2,7 +2,7 @@
 # Part1: bare-metal-hw
 > :construction: Projeto em construção :construction:
 
-***Pasta 'hw-letra a-b'*** <br/>
+***Pasta 'hw-letra a-b-c'*** <br/>
 **a)** Implement your own version of the hello world program in machine code. <br/>
 Arquivo: hw.hex <br/>
 De .hex para .bin: xxd -r -p hw.hex hw.bin	# Criou o arquivo: hw.bin <br/>
@@ -16,7 +16,6 @@ Chamando o linker: ld -melf_i386 --oformat=binary -Ttext=0x7c00 hw2.o -o hw2.bin
 Executar: make hw2.bin/run <br/>
 Resultado tem que ser: *Hello World!!*
 
-***Pasta 'hw-letra c'*** <br/>
 **c)** Implement your own version of the hello world program in C.<br/>
 Arquivo: Era para ser hw3.c, porém não consegui fazer os outros passos do makefile com outro nome. Arquivos ficaram com o nome eg-08. <br/>
 make eg-08.bin <br/>

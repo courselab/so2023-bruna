@@ -18,5 +18,5 @@ Resultado tem que ser: *Hello World!!*
 **c)** Implement your own version of the hello world program in C.<br/>
 Arquivo: Era para ser hw3.c, porém não consegui fazer os outros passos do makefile com outro nome. Arquivos ficaram com o nome eg-08. <br/>
 make eg-08.bin <br/>
-Executar: qemu-system-i386 -drive format=raw,file=eg-08.bin -net none
+Executar: qemu-system-i386 -drive format=raw,file=eg-08.bin -net none <br/>
 Resultado tem que ser: *Hello World!!!*

@@ -1,4 +1,4 @@
-	.file	"eg-08_rt0.c"
+	.file	"hw3_rt0.c"
 	.code16gcc
 	.text
 	.globl	_start
@@ -7,7 +7,7 @@ _start:
 .LFB0:
 	.cfi_startproc
 #APP
-# 15 "eg-08_rt0.c" 1
+# 15 "hw3_rt0.c" 1
 	             mov  $__END_STACK__ , %sp  
              call main                  
 halt:                                   

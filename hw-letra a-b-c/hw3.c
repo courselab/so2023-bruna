@@ -1,4 +1,4 @@
-/* Hello Word C - hw3.c = eg-08.c
+/* Hello Word C - hw3.c 
 */
 
 #include <stdio.h>

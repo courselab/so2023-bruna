@@ -17,6 +17,6 @@ SECTIONS
         }
 	__END_STACK__ = 0x8200;	
 }
-STARTUP(eg-08_rt0.o);
-INPUT(eg-08_utils.o)
+STARTUP(hw3_rt0.o);
+INPUT(hw3_utils.o)
 

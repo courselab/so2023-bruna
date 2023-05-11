@@ -1,4 +1,4 @@
-	.file	"eg-08_utils.c"
+	.file	"hw3_utils.c"
 	.code16gcc
 	.text
 	.globl	puts
@@ -7,7 +7,7 @@ puts:
 .LFB0:
 	.cfi_startproc
 #APP
-# 10 "eg-08_utils.c" 1
+# 10 "hw3_utils.c" 1
 	       mov   %cx, %bx             
 	mov   $0x0e, %ah           
 	mov   $0x0, %si            

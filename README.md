@@ -17,7 +17,7 @@ Executar: make hw2.bin/run <br/>
 Resultado tem que ser: *Hello World!!*
 
 **c)** Implement your own version of the hello world program in C.<br/>
-Arquivos: hw3.c, hw3.s, hw3.o, hw3.ld, hw3.bin, hw3_utils.c, hw3_util.o, hw3_utils.s, hw3_rt0.c, hw3_rt0.o, hw3_rt0.s <br/>
+Arquivos: hw3.c, hw3.s, hw3.o, hw3.ld, hw3.bin, hw3_utils.c, hw3_util.o, hw3_utils.s, hw3_rt0.c, hw3_rt0.o, hw3_rt0.s, stdio.h <br/>
 make hw3.bin <br/>
 Executar: qemu-system-i386 -drive format=raw,file=hw3.bin -net none <br/>
 Resultado tem que ser: *Hello World!!!*
